@@ -17,7 +17,7 @@ This week topics
 <a name="float"></a>
 ## 1. Float
 
-The float CSS property places an element on the left or right side of its container, allowing text and inline elements to wrap around it. The element is removed from the normal flow of the page, though still remaining a part of the flow. Some of the KEy words used are as follows: 
+The float CSS property places an element on the left or right side of its container, allowing text and inline elements to wrap around it. The element is removed from the normal flow of the page, though still remaining a part of the flow. See the examples below :
 
 <h3>Key word Values</h3>
 <ul>
