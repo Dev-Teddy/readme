@@ -54,5 +54,102 @@ main {
 <a name="table"></a>
 ## 3. table
 
-Loreflm Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1xxxxx500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+The table HTML element represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.
+
+<p>The code below shows implementation of simple table in html</p>
+<br>
+
+```html
+<table>
+   <tr>    
+     <th>Team</th>
+     <th>Points</th>
+   </tr>
+   <tr>
+    <td>M Blue</td>
+    <td>52</td>
+   </tr>
+   <tr>
+    <td>Tots</td>
+    <td>50</td>
+   </tr>
+   <tr>
+    <td>Poolers</td>
+    <td>48</td>
+   </tr>
+   <tr>
+    <td>Shooters</td>
+    <td>47</td>
+   </tr>
+  </table> 
+  ```
+
+  Now lets add some styling to the table 
+
+  ```css 
+  *{
+ font-family: Helvetica; 
+}
+
+h2{
+  text-align: center;
+}
+
+p{
+  line-height: 1.2em;
+}
+
+table,td,th{
+  padding: 5px;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+table{
+  width: 400px;
+}
+th{
+  background-color: blue;
+  color: white;
+}
+```
+
+### Our final results will be :
+
+<table>
+
+<style>
+table,td,th{
+  padding: 5px;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+table{
+  width: 400px;
+}
+th{
+  background-color: blue;
+  color: white;
+}
+ </style>
+   <tr>    
+     <th>Team</th>
+     <th>Points</th>
+   </tr>
+   <tr>
+    <td>M Blue</td>
+    <td>52</td>
+   </tr>
+   <tr>
+    <td>Tots</td>
+    <td>50</td>
+   </tr>
+   <tr>
+    <td>Poolers</td>
+    <td>48</td>
+   </tr>
+   <tr>
+    <td>Shooters</td>
+    <td>47</td>
+   </tr>
+  </table> 
+
