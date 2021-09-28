@@ -28,6 +28,12 @@ The float CSS property places an element on the left or right side of its contai
     <li>float: inline-end</li>
 </ul>
 
+```css
+main {
+  float: left;
+}
+```
+
 <a name="flex"></a>
 ## 2. Flex Property
 
