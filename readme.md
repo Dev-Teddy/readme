@@ -36,6 +36,8 @@ The Flexible Box Module, usually referred to as flexbox, was designed as a one-d
 <h3>The column main axis</h3>
 <br>
 <img src="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox/basics2.png">
+ <br>
+An Example of a simple flexbox implementation is  
 
 <a name="table"></a>
 ## 3. table
