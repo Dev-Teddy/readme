@@ -100,18 +100,6 @@ The table HTML element represents tabular data — that is, information presente
   Now lets add some styling to the table 
 
   ```css 
-  *{
- font-family: Helvetica; 
-}
-
-h2{
-  text-align: center;
-}
-
-p{
-  line-height: 1.2em;
-}
-
 table,td,th{
   padding: 5px;
   border: 2px solid black;
@@ -130,7 +118,6 @@ th{
 
 <table style="width: 400px; border: 2px solid black; padding: 5px;">
 
- </style>
    <tr>    
      <th style="background-color: blue; ">Team</th>
      <th style="background-color: blue; ">Points</th>
