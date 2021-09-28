@@ -115,25 +115,12 @@ th{
 
 ### Our final results will be :
 
-<table>
+<table style="width: 400px; border: 2px solid black; padding: 5px;">
 
-<style>
-table,td,th{
-  padding: 5px;
-  border: 2px solid black;
-  border-collapse: collapse;
-}
-table{
-  width: 400px;
-}
-th{
-  background-color: blue;
-  color: white;
-}
  </style>
    <tr>    
-     <th>Team</th>
-     <th>Points</th>
+     <th style="background-color: blue; ">Team</th>
+     <th style="background-color: blue; ">Points</th>
    </tr>
    <tr>
     <td>M Blue</td>
